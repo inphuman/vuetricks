@@ -1,6 +1,6 @@
 # Site Settings
-baseurl: ""
-url : "https://naye0ng.github.io"
+baseurl: "vuetricks"
+url : "https://inphuman.github.io/vuetricks/"
 
 # Blog Settings
 theme_settings :
@@ -10,8 +10,8 @@ theme_settings :
   # Profile Settings
   profile :
     image : assets/img/logo.svg
-    username : Vue tricks
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    username : Igor Ponomarenko
+    description : Front-end developer
     experience :
       - start : 2017-05-03
         end : 2018-05-06
@@ -24,7 +24,7 @@ theme_settings :
   icons :
     email:  # Full email address, e.g. "sample@google.com"
     linkedin:  # Full URL 
-    github: naye0ng
+    github: inphuman
     gitlab: 
     bitbucket: 
     google_plus:
