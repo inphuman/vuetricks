@@ -1,1 +1,2 @@
-### bundle exec jekyll serve --livereload
+### Runn dev
+bundle exec jekyll serve --livereload
