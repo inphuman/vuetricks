@@ -1,10 +1,12 @@
+# bundle exec jekyll serve --livereload
+
 # Grape-Theme
 
 ![home](./assets/img/home.png)
 
 블로그뿐만 아니라 포트폴리오 페이지도 지원하는 Grape-Theme를 자유롭게 사용하세요.
 
-Welcome to Grape Theme!  It is good for a portfolio as well as a blog.
+Welcome to Vue tricks!  It is good for a portfolio as well as a blog.
 <br>
 Customize Grape-Theme and use it for free.
 
@@ -14,7 +16,7 @@ Customize Grape-Theme and use it for free.
 
 ## Installation
 
-1. Fork and clone the Grape Theme repo
+1. Fork and clone the Vue tricks repo
 
    ```
    git clone https://github.com/naye0ng/Grape-Theme.git
@@ -172,7 +174,7 @@ You can change colors at once. colors are in `_sass/base/_variable.scss`
 
 
 
-## Posts in Grape theme
+## Posts in Vue tricks
 
 이 블로그의 모든 포스팅 스타일은  `_sass/base/_utility.scss` 에 정의되어 있으며 [Demo page](https://grape-theme.netlify.com/2019/06/08/markdown-and-html.html)와 [Demo page](https://grape-theme.netlify.com/2019/06/09/grape-theme-style.html)에서 여러 태그들의 출력을 확인할 수 있습니다.
 
