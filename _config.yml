@@ -1,32 +1,32 @@
 # Site Settings
 baseurl: ""
-url : "https://vuetricks.ru/"
+url: "https://vuetricks.ru/"
 
 # Blog Settings
-theme_settings :
-  title : Vue tricks
-  favicon : assets/favicon.ico
+theme_settings:
+  title: Vue tricks
+  favicon: assets/favicon.ico
 
   # Profile Settings
-  profile :
-    image : assets/img/logo.svg
-    username : Vue tricks
-    description : Front-end developer
-    experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-    skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
-        
+  profile:
+    image: assets/img/logo.svg
+    username: Vue tricks
+    description: Front-end developer
+    experience:
+      - start: 2017-05-03
+        end: 2018-05-06
+        experience: company name, title
+    skills:
+      - skill: HTML5 & CSS
+        value: 85  # Percent value
+
   # Icons
-  icons :
-    email:  # Full email address, e.g. "sample@google.com"
-    linkedin:  # Full URL 
-    github: inphuman
-    gitlab: 
-    bitbucket: 
+  icons:
+    email: inphuman@gmail.com
+    linkedin: https://www.linkedin.com/in/inphuman
+    github:
+    gitlab:
+    bitbucket:
     google_plus:
     twitter:
     youtube:
@@ -34,7 +34,7 @@ theme_settings :
     instagram:
 
   # Disqus
-  disqus_shortname :
+  disqus_shortname:
 
 # Pagination
 paginate: 5
@@ -44,6 +44,6 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [jekyll-paginate]
+gems: [ jekyll-paginate ]
 bootstrap:
   assets: true
