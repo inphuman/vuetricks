@@ -2,7 +2,7 @@
 {% if icons.email %}
 <li>
   <a href="mailto:{{ icons.email }}" target="_blank">
-    <i class="fas fa-envelope"></i>
+    <i class="fas fa-envelope-open-text"></i>
   </a>
 </li>
 {% endif %}
@@ -10,7 +10,7 @@
 {% if icons.linkedin %}
 <li>
   <a href="{{ icons.linkedin }}" target="_blank">
-    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-linkedin-in"></i>
   </a>
 </li>
 {% endif %}
@@ -39,10 +39,10 @@
 </li>
 {% endif %}
 
-{% if icons.google_plus %}
+{% if icons.telegramm %}
 <li>
-  <a href="https://plus.google.com/{{ icons.google_plus }}">
-    <i class="fab fa-google-plus-g"></i>
+  <a href="{{ icons.telegramm }}">
+    <i class="fab fa-telegram-plane"></i>
   </a>
 </li>
 {% endif %}
