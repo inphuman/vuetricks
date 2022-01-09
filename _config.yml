@@ -1,6 +1,6 @@
 # Site Settings
-baseurl: "/vuetricks"
-url : "https://inphuman.github.io/vuetricks/"
+baseurl: ""
+url : "https://vuetricks.ru/"
 
 # Blog Settings
 theme_settings :
