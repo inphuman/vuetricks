@@ -4,7 +4,7 @@ url: "https://vuetricks.ru/"
 
 # Blog Settings
 theme_settings:
-  title: Vue tricks
+  title: Vue tricks - свежие статьи для обучения и развития из мира Vue.js фреймворка
   favicon: assets/favicon.ico
 
   # Profile Settings
