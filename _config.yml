@@ -4,14 +4,15 @@ url: "https://vuetricks.ru/"
 
 # Blog Settings
 theme_settings:
-  title: Vue tricks - свежие статьи для обучения и развития из мира Vue.js фреймворка
+  title: Vue tricks - блог для обучения и развития из мира Vue.js фреймворка
   favicon: assets/favicon.ico
 
   # Profile Settings
   profile:
     image: assets/img/logo.svg
     username: Vue tricks
-    description: Vue tricks - свежие статьи для обучения и развития из мира Vue.js фреймворка
+    author: vuetricks.ru
+    description: Vue tricks - блог для обучения и развития из мира Vue.js фреймворка
     experience:
       - start: 2017-05-03
         end: 2018-05-06
