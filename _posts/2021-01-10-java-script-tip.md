@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Map без использования map (Array.from)
-tags: [𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁 𝘁𝗶𝗽]
+tags: [JavaScript tip]
 comments : False
 ---
 
