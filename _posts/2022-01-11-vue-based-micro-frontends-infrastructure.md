@@ -85,3 +85,10 @@ comments : False
 
 ![Хост направляется на существующий маршрут микроприложения]({{ site.baseurl }}/assets/img/posts/2022-01-11-vue-based-micro-frontends-infrastructure-4.png)
 
+Больше информации по плагинам: [https://github.com/greenpress/microf](https://github.com/greenpress/microf)
+
+Этот проект в настоящее время находится в бета-версии!
+
+Он работает так, как описано, но, возможно, нуждается в некоторых улучшениях.
+
+
