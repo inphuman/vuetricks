@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Как построить инфраструктуру микрофронтендов на основе Vue
-tags: [Vue.js, micro-frontends]
+tags: [Vue.js, микро-фронтенды]
 comments : False
 ---
 

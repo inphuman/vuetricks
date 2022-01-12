@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Стоит ли начинать новый проект с микросервисов?
-tags: [microservices,softwarearchitecture,microservicesarchitecture]
+tags: [микросервисы, микросервисная архитектура]
 comments : False
 ---
 
