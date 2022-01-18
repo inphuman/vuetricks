@@ -27,11 +27,11 @@ comments: false
 
 1. Для установки `mkcert` вам понадобится менеджер пакетов:
 
-- MacOS: Используйте Homebrew или Macports.
-- Linux: Используйте certutil. Только для Arch Linux, mkcert доступен в репозитории Arch Linux.
-- Windows: Используйте chocolatey.
+   - MacOS: Используйте Homebrew или Macports.
+   - Linux: Используйте certutil. Только для Arch Linux, mkcert доступен в репозитории Arch Linux.
+   - Windows: Используйте chocolatey.
 
-2. Установите `mkcert.
+2. Установите [mkcert](https://github.com/FiloSottile/mkcert).
 3. Создайте локальный доверенный CA с помощью `mkcert -install`.
 4. Сгенерируйте SSL-сертификат с помощью `mkcert localhost`.
 
