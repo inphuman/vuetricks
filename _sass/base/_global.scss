@@ -37,7 +37,7 @@ time, mark, audio, video {
   vertical-align: baseline;
   word-break: keep-all;
   font-size: 1.05rem;
-  line-height: 1.5em;
+  line-height: 1.25em;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -81,6 +81,7 @@ h6 {
 
 p {
   margin: 15px 0;
+  line-height: 1.5;
 }
 
 strong {
