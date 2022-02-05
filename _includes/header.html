@@ -1,39 +1,46 @@
 {% assign _url = page.url | split: "/" %}
 {% assign current = _url[-1] | split: "." %}
+{% assign profile = site.theme_settings.profile %}
+
 <header>
-  <nav>
-    <ul>
-      {% case current[0] %}
-      {% when 'tags'%}
-      <!-- tags -->
-      <a href="{{ site.url }}">
-        <li class="btn-nav">Блог</li>
-      </a>
-      <li class="current">Теги</li>
-<!--      <a href="{{ site.url }}/portfolio">-->
-<!--        <li class="btn-nav">Portfolio</li>-->
-<!--      </a>-->
-      <!-- portfolio -->
-      {% when 'portfolio'%}
-      <a href="{{ site.url }}">
-        <li class="btn-nav">Блог</li>
-      </a>
-      <a href="{{ site.url }}/tags">
-        <li class="btn-nav">Теги</li>
-      </a>
-      <li class="current">Portfolio</li>
-      {% else %}
-      <!-- others -->
-      <a href="{{ site.url }}">
-        <li class="current btn-nav">Блог</li>
-      </a>
-      <a href="{{ site.url }}/tags">
-        <li class="btn-nav">Теги</li>
-      </a>
-<!--      <a href="{{ site.url }}/portfolio">-->
-<!--        <li class="btn-nav">Portfolio</li>-->
-<!--      </a>-->
-      {% endcase %}
-    </ul>
-  </nav>
+    <a href="/" class="logo">
+        <div class="logo__img"><img src="/{{ profile.image }}" alt="Logo"></div>
+        <div class="logo__text">Vue tricks</div>
+    </a>
+
+    <nav>
+        <ul>
+            {% case current[0] %}
+            {% when 'tags'%}
+            <!-- tags -->
+            <a href="{{ site.url }}">
+                <li class="btn-nav">Блог</li>
+            </a>
+            <li class="current">Теги</li>
+            <!--      <a href="{{ site.url }}/portfolio">-->
+            <!--        <li class="btn-nav">Portfolio</li>-->
+            <!--      </a>-->
+            <!-- portfolio -->
+            {% when 'portfolio'%}
+            <a href="{{ site.url }}">
+                <li class="btn-nav">Блог</li>
+            </a>
+            <a href="{{ site.url }}/tags">
+                <li class="btn-nav">Теги</li>
+            </a>
+            <li class="current">Portfolio</li>
+            {% else %}
+            <!-- others -->
+            <a href="{{ site.url }}">
+                <li class="current btn-nav">Блог</li>
+            </a>
+            <a href="{{ site.url }}/tags">
+                <li class="btn-nav">Теги</li>
+            </a>
+            <!--      <a href="{{ site.url }}/portfolio">-->
+            <!--        <li class="btn-nav">Portfolio</li>-->
+            <!--      </a>-->
+            {% endcase %}
+        </ul>
+    </nav>
 </header>
