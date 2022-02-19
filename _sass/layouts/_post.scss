@@ -5,6 +5,10 @@
     padding-bottom: 20px;
     text-align: center;
 
+    @media (max-width: 991px) {
+      padding-bottom: 0;
+    }
+
     .title {
       margin-bottom: 0px;
     }

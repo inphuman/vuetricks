@@ -30,8 +30,12 @@ time, mark, audio, video {
   border: 0;
   vertical-align: baseline;
   word-break: keep-all;
-  font-size: 1.05rem;
+  font-size: 18px;
   line-height: 1.25em;
+
+  @media (max-width: 991px) {
+    font-size: 16px;
+  }
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,16 +108,6 @@ strong {
   p {
     font-size: 0.9rem;
   }
-}
-
-ol, ul {
-  li {
-    font-size: 15px;
-  }
-}
-
-em {
-  font-size: 15px;
 }
 
 a:link, a:visited, a:active, a:hover {
