@@ -15,4 +15,4 @@ comments : False
 
 **~ Мартин Фаулер**
 
-![Стоит ли начинать новый проект с микросервисов?]({{ site.baseurl }}/assets/img/softwarearchitecture/2022-01-12-softwarearchitecture.jpeg)
+![Стоит ли начинать новый проект с микросервисов?]({{ site.baseurl }}/assets/img/posts/2022-01-12-softwarearchitecture.jpeg)
