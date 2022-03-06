@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: ""
-url: "https://vuetricks.click/"
+url: "https://vuetricks.click"
 
 # Blog Settings
 theme_settings:
