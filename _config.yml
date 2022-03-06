@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: ""
-url: "https://vuetricks.ru/"
+url: "https://vuetricks.click/"
 
 # Blog Settings
 theme_settings:
@@ -11,7 +11,7 @@ theme_settings:
   profile:
     image: assets/img/logo.svg
     username: Vue tricks
-    author: vuetricks.ru
+    author: vuetricks.click
     description: Vue tricks - блог для обучения и развития в мире Vue.js фреймворка
     experience:
       - start: 2017-05-03
