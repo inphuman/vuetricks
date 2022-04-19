@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Зачем использовать TypeScript с Vue.js?
-tags: [поиск в данных, Fuse.Js]
+tags: [TypeScript, Vue.Js]
 comments: false
 ---
 
