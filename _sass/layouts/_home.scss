@@ -16,7 +16,7 @@
   #header-content {
     @extend %page-padding;
     margin-bottom: 30px;
-    background-color: rgba(0,0,0,0.03);
+    background-color: rgba(0, 0, 0, 0.03);
 
     @media (max-width: 991px) {
       display: flex;
@@ -132,37 +132,48 @@
 
 // Pagination 
 #pagination {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin: 30px 0 60px;
   text-align: center;
+  display: flex;
+  justify-content: flex-end;
+
+  @media (max-width: 991px) {
+    justify-content: center;
+  }
+
+  a {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+  }
 
   li.btn-rounded {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 35px;
     height: 35px;
-    margin-right: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.07);
-    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
     color: rgba(0, 0, 0, 0.54);
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 30px;
   }
 
-  li.prev, li.next {
-    background-color: rgba(0, 0, 0, 0.07);
-    border: 2px solid rgba(0, 0, 0, 0.0);
-  }
+  //li.prev, li.next {
+  //  background-color: rgba(0, 0, 0, 0.07);
+  //}
 
   li.btn-rounded:hover {
     background-color: $theme-dark;
-    border: 2px solid $theme-dark;
     color: #fff;
   }
 
   .selected li {
     background-color: $theme-dark;
-    border: 2px solid $theme-dark;
     color: #fff;
   }
 } 
