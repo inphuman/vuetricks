@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Зачем использовать TypeScript с Vue.js?
+title: Зачем использовать TypeScript в Vue.js?
 tags: [TypeScript, Vue.Js]
 comments: false
 ---
