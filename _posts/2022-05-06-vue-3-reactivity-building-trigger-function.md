@@ -306,7 +306,7 @@ let proxiedProduct = new Proxy(product, {
 Давайте завершим все улучшения и мы добавим новую
 реактивную переменную `priceAfterDiscount`, которая зависит только от `price` свойства.
 
-1. Во-первых, давайте определим наши реактивные переменные и их соответствующие эффекты.
+Во-первых, давайте определим наши реактивные переменные и их соответствующие эффекты.
 
 ```js
 let product = { price: 20, quantity: 5 };
@@ -323,7 +323,7 @@ function updatePriceAfterDiscount() {
 }
 ```
 
-2. Во-вторых, давайте определим и заполним `targetMap` и `depMap`
+Во-вторых, давайте определим и заполним `targetMap` и `depMap`
 
 ```js
 const targetMap = new WeakMap();
@@ -335,7 +335,7 @@ productDepsMap.set('price', [updateTotalPrice, updatePriceAfterDiscount]);
 productDepsMap.set('quantity', [updateTotalPrice]);
 ```
 
-3. Наконец, нам нужно создать прокси для `product` объекта.
+Наконец, нам нужно создать прокси для `product` объекта.
 
 ```js
 // Creating the Proxied Product
@@ -350,7 +350,7 @@ let proxiedProduct = new Proxy(product, {
 });
 ```
 
-4. Вуаля, наш `product` объект теперь реактивный
+Вуаля, наш `product` объект теперь реактивный
 
 ```js
 console.log(totalPrice); // Returns 100
