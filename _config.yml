@@ -38,13 +38,16 @@ theme_settings:
   disqus_shortname:
 
 # Pagination
-paginate: 5
+paginate: 10
 paginate_path: "blog/page:num"
 
 # Build Ssttings
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [ jekyll-paginate ]
+plugins: [ jekyll-paginate ]
 bootstrap:
   assets: true
+
+liquid:
+  error_mode: lax

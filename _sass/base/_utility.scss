@@ -40,7 +40,12 @@
   }
 
   a {
-    color: #4F86C6;
+    color: #42b883;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   img {
