@@ -1,2 +1,2 @@
-### Run dev
-bundle exec jekyll serve --livereload
+# Run dev
+1. Run `docker-compose up`
